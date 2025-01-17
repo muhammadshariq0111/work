@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .navebar{
-    background-color: maroon;
+    background-color: black;
     height: 90px;
     display: flex;
     justify-content: end;
@@ -38,8 +38,8 @@
 }
 .logo img{
     height: 90px;
-    width: 110px;
-    margin-right: 325px;  
+    width: 150px;
+    margin-right: 300px;  
 }
 h1{
     text-align: center;
@@ -81,4 +81,57 @@ h1{
  }
  .main{
     display: flex;
+ }
+
+
+ footer{
+    background-color: black;
+    width: 100%;
+    height: 420px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.foo1{
+   width: 18%;
+   height: 290px;
+   /* background-color: red; */
+}
+.foo2{
+    width: 18%;
+    height: 290px;
+    /* background-color: blue; */
+ }
+ .foo3{
+    width: 18%;
+    height: 290px;
+    /* background-color: green; */
+ }
+ .foo4{
+    width: 18%;
+    height: 290px;
+    /* background-color: brown; */
+ }
+ .foo5{
+    width: 18%;
+    height: 290px;
+    /* background-color: brown; */
+ }
+ h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 18px;
+
+ }
+
+ li{
+    list-style: none;
+    line-height: 38px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+.photo{
+    height: 60px;
  }
